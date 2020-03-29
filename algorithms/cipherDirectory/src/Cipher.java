@@ -2,7 +2,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Scanner;
 
 public class Cipher {
 
@@ -36,13 +37,13 @@ public class Cipher {
         File file = new File(directory.getAbsolutePath().replace(".","")+ "/testCases/CipherAlgorithmTestCase.txt");
         Scanner scannerForFile = new Scanner(file, StandardCharsets.UTF_8.name());
 
-        String[] nk = scannerForCommandLine.nextLine().split(" ");
+        String[] nk = scannerForFile.nextLine().split(" ");
 
         int n = Integer.parseInt(nk[0]);
 
         int k = Integer.parseInt(nk[1]);
 
-        String s = scannerForCommandLine.nextLine();
+        String s = scannerForFile.nextLine();
 
         long startTime = Instant.now().toEpochMilli();
         String result = cipher(k, s);
@@ -51,6 +52,6 @@ public class Cipher {
         System.out.println("Execution time in milliseconds: " + timeElapsed);
         System.out.println(result);
 
-        scannerForCommandLine.close();
+        scannerForFile.close();
     }
 }
