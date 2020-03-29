@@ -33,7 +33,7 @@ public class Cipher {
 
     public static void main(String[] args) throws IOException {
         File directory = new File("./");
-        File file = new File(directory.getAbsolutePath().replace(".","")+ "/algorithms/src/testInput.txt");
+        File file = new File(directory.getAbsolutePath().replace(".","")+ "/testCases/CipherAlgorithmTestCase.txt");
         Scanner scannerForFile = new Scanner(file, StandardCharsets.UTF_8.name());
 
         String[] nk = scannerForCommandLine.nextLine().split(" ");
