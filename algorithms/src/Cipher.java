@@ -1,5 +1,3 @@
-package algorithms;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -34,9 +32,8 @@ public class Cipher {
     private static final Scanner scannerForCommandLine = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-
         File directory = new File("./");
-        File file = new File(directory.getAbsolutePath().replace(".","")+ "src/algorithms/testInput.txt");
+        File file = new File(directory.getAbsolutePath().replace(".","")+ "/algorithms/src/testInput.txt");
         Scanner scannerForFile = new Scanner(file, StandardCharsets.UTF_8.name());
 
         String[] nk = scannerForCommandLine.nextLine().split(" ");
