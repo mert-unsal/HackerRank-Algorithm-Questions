@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithms/compareTriplets/compareTriplets.iml" filepath="$PROJECT_DIR$/algorithms/compareTriplets/compareTriplets.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/diagonalDifference/diagonalDifference.iml" filepath="$PROJECT_DIR$/algorithms/diagonalDifference/diagonalDifference.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hackerRankAlgorithmQuestions.iml" filepath="$PROJECT_DIR$/.idea/hackerRankAlgorithmQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms/xorMatrix/xorMatrix.iml" filepath="$PROJECT_DIR$/algorithms/xorMatrix/xorMatrix.iml" />
     </modules>
   </component>
 </project>
