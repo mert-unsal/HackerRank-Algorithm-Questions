@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithms/cipherDirectory/cipherDirectory.iml" filepath="$PROJECT_DIR$/algorithms/cipherDirectory/cipherDirectory.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/compareTheTriplets/compareTheTriplets.iml" filepath="$PROJECT_DIR$/algorithms/compareTheTriplets/compareTheTriplets.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/compareTriplets/compareTriplets.iml" filepath="$PROJECT_DIR$/algorithms/compareTriplets/compareTriplets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms/counterGame/counterGame.iml" filepath="$PROJECT_DIR$/algorithms/counterGame/counterGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/diagonalDifference/diagonalDifference.iml" filepath="$PROJECT_DIR$/algorithms/diagonalDifference/diagonalDifference.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hackerRankAlgorithmQuestions.iml" filepath="$PROJECT_DIR$/.idea/hackerRankAlgorithmQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/lonelyInteger/lonelyInteger.iml" filepath="$PROJECT_DIR$/algorithms/lonelyInteger/lonelyInteger.iml" />
