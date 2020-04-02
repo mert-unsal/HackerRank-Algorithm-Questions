@@ -20,50 +20,6 @@ class Solution {
     }
     bitLengthOfPowerOfTwoNumber= Long.toBinaryString(n).length()-1;
     return ((bitLengthOfPowerOfTwoNumber+numberOfMovementToAchievePowerOfTwo) % 2 == 1) ? "Louise" : "Richard";
-//    long richardPoints = 0;
-//    long louisePoints = 0;
-//    boolean isItLouiseTurn = true;
-//    boolean isItAPowerOfTwo=false;
-//    while(richardPoints!=1 && louisePoints!=1){
-//      long nValueAfterMove = 0;
-//      if(isItLouiseTurn){
-//        if(louisePoints==0){
-//          // This means initial movement
-//          isItAPowerOfTwo = isItPowerOfTwo(n);
-//          if(isItAPowerOfTwo){
-//            nValueAfterMove=n/2;
-//          } else
-//          {
-//            nValueAfterMove = 1 << ( 63 - Long.numberOfLeadingZeros(n));
-//          }
-//          if(nValueAfterMove==0){
-//            return "Richard";
-//          }
-//          richardPoints=n-nValueAfterMove;
-//        } else {
-//          isItAPowerOfTwo = isItPowerOfTwo(louisePoints);
-//          if(isItAPowerOfTwo){
-//            nValueAfterMove=louisePoints/2;
-//          } else
-//          {
-//            nValueAfterMove = 1 << ( 63 - Long.numberOfLeadingZeros(louisePoints));
-//          }
-//          richardPoints=louisePoints - nValueAfterMove;
-//        }
-//      } else {
-//        isItAPowerOfTwo = isItPowerOfTwo(richardPoints);
-//        if(isItAPowerOfTwo){
-//          nValueAfterMove=richardPoints/2;
-//        } else
-//        {
-//          nValueAfterMove = 1 << ( 63 - Long.numberOfLeadingZeros(richardPoints));
-//        }
-//        louisePoints=richardPoints-nValueAfterMove;
-//      }
-//      if(richardPoints==0)return "Richard";
-//      isItLouiseTurn=!isItLouiseTurn;
-//    }
-//    return richardPoints == 1 ? "Louise":"Richard";
   }
   
   private static final Scanner scanner = new Scanner(System.in);
