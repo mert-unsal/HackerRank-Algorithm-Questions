@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithms/lonelyInteger/lonelyInteger.iml" filepath="$PROJECT_DIR$/algorithms/lonelyInteger/lonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/maximizingXor/maximizingXor.iml" filepath="$PROJECT_DIR$/algorithms/maximizingXor/maximizingXor.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/sumVsXor/sumVsXor.iml" filepath="$PROJECT_DIR$/algorithms/sumVsXor/sumVsXor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms/theGreatXOR/theGreatXOR.iml" filepath="$PROJECT_DIR$/algorithms/theGreatXOR/theGreatXOR.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/xorMatrix/xorMatrix.iml" filepath="$PROJECT_DIR$/algorithms/xorMatrix/xorMatrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/xorSequence/xorSequence.iml" filepath="$PROJECT_DIR$/algorithms/xorSequence/xorSequence.iml" />
     </modules>
